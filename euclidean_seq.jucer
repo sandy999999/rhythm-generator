@@ -12,7 +12,7 @@
         <FILE id="kYMgRH" name="MidiGenerator.h" compile="0" resource="0" file="Source/MIDI/MidiGenerator.h"/>
       </GROUP>
       <GROUP id="{8BF18AA5-EF67-6D82-FCAE-1CFE8F6F9CCB}" name="utils">
-        <FILE id="GW87k4" name="euclidean.h" compile="0" resource="0" file="Source/euclidean.h"/>
+        <FILE id="NcQMjw" name="euclidean.h" compile="0" resource="0" file="Source/utils/euclidean.h"/>
       </GROUP>
       <FILE id="wqhMx5" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
