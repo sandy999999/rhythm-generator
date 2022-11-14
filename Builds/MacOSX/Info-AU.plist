@@ -29,7 +29,7 @@
     <array>
       <dict>
         <key>name</key>
-        <string>yourcompany: euclidean_seq</string>
+        <string>yourcompany: Euclidean MIDI Generator</string>
         <key>description</key>
         <string>euclidean_seq</string>
         <key>factoryFunction</key>
@@ -49,10 +49,6 @@
           <key>temporary-exception.files.all.read-write</key>
           <true/>
         </dict>
-        <key>tags</key>
-        <array>
-          <string>ARA</string>
-        </array>
       </dict>
     </array>
   </dict>

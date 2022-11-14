@@ -44,7 +44,6 @@
 		6102CB6AA56BC32F02EA8146 /* Accelerate.framework */ = {isa = PBXBuildFile; fileRef = 20597269D2E0ACFE64DF694C; };
 		63564793CD66244849FE8E71 /* include_juce_opengl.mm */ = {isa = PBXBuildFile; fileRef = 8A5C0A0882E56C1211878688; };
 		6D202EE2902F6E8547383268 /* MidiGenerator.cpp */ = {isa = PBXBuildFile; fileRef = 6858281B7DD3291A5206BF19; };
-		6DA833FE1D4F4A7F3358EA31 /* PluginARADocumentController.cpp */ = {isa = PBXBuildFile; fileRef = EB7D04E1BEE6E65AFE90E219; };
 		6F3862C92D1703CDA31C9112 /* include_juce_audio_basics.mm */ = {isa = PBXBuildFile; fileRef = 3CBA00886888314E9D9CD819; };
 		70A2F6AD33EFF2D3E48BEF95 /* Shared Code */ = {isa = PBXBuildFile; fileRef = AE1C046BC2E0064DFF3B58F3; };
 		734A251CE09A5F5DEBBD81BC /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = 210091C52C335C3111011954; };
@@ -66,7 +65,6 @@
 		D87A5F7BB3AD2D2F0AEE351F /* include_juce_audio_plugin_client_VST3.cpp */ = {isa = PBXBuildFile; fileRef = 6FE190F79757BE4433E83BB8; };
 		E55F46FA069404949308E7D9 /* include_juce_audio_plugin_client_Standalone.cpp */ = {isa = PBXBuildFile; fileRef = 9EAABE316B8B1F3A6D508057; };
 		E89262A1940CF819ED5B9F80 /* include_juce_events.mm */ = {isa = PBXBuildFile; fileRef = A95569F4BC74E67FDF1CB4B0; };
-		EBFD96A125BCDC7E78A54419 /* PluginARAPlaybackRenderer.cpp */ = {isa = PBXBuildFile; fileRef = B198FE18E86514FB8F5B0DFA; };
 		ED2BC756316D0F9949CD283E /* include_juce_audio_plugin_client_AU_2.mm */ = {isa = PBXBuildFile; fileRef = A91648008ED7F31D32F60D42; };
 		EF9641FB80C4B0E2C19CCC22 /* VST3 */ = {isa = PBXBuildFile; fileRef = F7E2E0274D69AC409B0F697D; };
 		F03354E66D5E20EFEBC0A354 /* Cocoa.framework */ = {isa = PBXBuildFile; fileRef = 4B7F544994A0F5F899C02F6F; };
@@ -79,7 +77,6 @@
 		081B3CB5D78E6C2C83E243EC /* juce_audio_plugin_client */ /* juce_audio_plugin_client */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_plugin_client; path = /Library/JUCE/JUCE/modules/juce_audio_plugin_client; sourceTree = "<absolute>"; };
 		094A5B2FB46980E4FFDD11D8 /* PluginEditor.h */ /* PluginEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginEditor.h; path = ../../Source/PluginEditor.h; sourceTree = SOURCE_ROOT; };
 		0B7F87754025F36EC0B4A358 /* juce_graphics */ /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = /Library/JUCE/JUCE/modules/juce_graphics; sourceTree = "<absolute>"; };
-		0E13FF6D8D08EDFBD039112A /* PluginARADocumentController.h */ /* PluginARADocumentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginARADocumentController.h; path = ../../Source/PluginARADocumentController.h; sourceTree = SOURCE_ROOT; };
 		17B599248694C3C52FAF4189 /* RecentFilesMenuTemplate.nib */ /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; name = RecentFilesMenuTemplate.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
 		1AB5240B70855D8F51D31876 /* AU */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = euclidean_seq.component; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDA723826DFD6A8D6EEF217 /* juce_audio_utils */ /* juce_audio_utils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_utils; path = /Library/JUCE/JUCE/modules/juce_audio_utils; sourceTree = "<absolute>"; };
@@ -122,7 +119,6 @@
 		9C9FD1591843602466CB81AA /* juce_opengl */ /* juce_opengl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_opengl; path = /Library/JUCE/JUCE/modules/juce_opengl; sourceTree = "<absolute>"; };
 		9E447E74D1C0B8D3FCCF5933 /* include_juce_audio_processors.mm */ /* include_juce_audio_processors.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_processors.mm; path = ../../JuceLibraryCode/include_juce_audio_processors.mm; sourceTree = SOURCE_ROOT; };
 		9EAABE316B8B1F3A6D508057 /* include_juce_audio_plugin_client_Standalone.cpp */ /* include_juce_audio_plugin_client_Standalone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_plugin_client_Standalone.cpp; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp; sourceTree = SOURCE_ROOT; };
-		9F0BCC050CDCC175435208DD /* PluginARAPlaybackRenderer.h */ /* PluginARAPlaybackRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginARAPlaybackRenderer.h; path = ../../Source/PluginARAPlaybackRenderer.h; sourceTree = SOURCE_ROOT; };
 		A1FED834DF2C945769BC0D83 /* juce_audio_basics */ /* juce_audio_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_basics; path = /Library/JUCE/JUCE/modules/juce_audio_basics; sourceTree = "<absolute>"; };
 		A225259468F06BA6382F97FE /* include_juce_audio_formats.mm */ /* include_juce_audio_formats.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_formats.mm; path = ../../JuceLibraryCode/include_juce_audio_formats.mm; sourceTree = SOURCE_ROOT; };
 		A5044A20A10BBBD21131A2F2 /* juce_audio_devices */ /* juce_audio_devices */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_devices; path = /Library/JUCE/JUCE/modules/juce_audio_devices; sourceTree = "<absolute>"; };
@@ -131,7 +127,6 @@
 		A95569F4BC74E67FDF1CB4B0 /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
 		AE1C046BC2E0064DFF3B58F3 /* Shared Code */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libeuclidean_seq.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF085EE4D37F0130FB1BCC1D /* include_juce_audio_devices.mm */ /* include_juce_audio_devices.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_devices.mm; path = ../../JuceLibraryCode/include_juce_audio_devices.mm; sourceTree = SOURCE_ROOT; };
-		B198FE18E86514FB8F5B0DFA /* PluginARAPlaybackRenderer.cpp */ /* PluginARAPlaybackRenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginARAPlaybackRenderer.cpp; path = ../../Source/PluginARAPlaybackRenderer.cpp; sourceTree = SOURCE_ROOT; };
 		B40A6966B382D647EC36E57D /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
 		B9854CD60EE8C4E88DFE805C /* juce_dsp */ /* juce_dsp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_dsp; path = /Library/JUCE/JUCE/modules/juce_dsp; sourceTree = "<absolute>"; };
 		BA3CBCDA17DB8B7F78A2662C /* QuartzCore.framework */ /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -142,7 +137,6 @@
 		DBFC7F01050855822C14C2F9 /* euclidean.h */ /* euclidean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = euclidean.h; path = ../../Source/utils/euclidean.h; sourceTree = SOURCE_ROOT; };
 		E229A44ABB45D7601748F2DE /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = /Library/JUCE/JUCE/modules/juce_core; sourceTree = "<absolute>"; };
 		E8EE65FF1DF602B3EA312018 /* include_juce_audio_plugin_client_AU_1.mm */ /* include_juce_audio_plugin_client_AU_1.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AU_1.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm; sourceTree = SOURCE_ROOT; };
-		EB7D04E1BEE6E65AFE90E219 /* PluginARADocumentController.cpp */ /* PluginARADocumentController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginARADocumentController.cpp; path = ../../Source/PluginARADocumentController.cpp; sourceTree = SOURCE_ROOT; };
 		F1D0690B04926B7E1552F737 /* Arp.h */ /* Arp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Arp.h; path = ../../Source/MIDI/Arp.h; sourceTree = SOURCE_ROOT; };
 		F7E2E0274D69AC409B0F697D /* VST3 */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = euclidean_seq.vst3; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB662CDF89D208B1EAFE21B /* include_juce_audio_processors_ara.cpp */ /* include_juce_audio_processors_ara.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_processors_ara.cpp; path = ../../JuceLibraryCode/include_juce_audio_processors_ara.cpp; sourceTree = SOURCE_ROOT; };
@@ -265,10 +259,6 @@
 				9350A93595C20D29F153B5CD,
 				BCED22165BCB73E8B9140CBA,
 				094A5B2FB46980E4FFDD11D8,
-				EB7D04E1BEE6E65AFE90E219,
-				0E13FF6D8D08EDFBD039112A,
-				B198FE18E86514FB8F5B0DFA,
-				9F0BCC050CDCC175435208DD,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -632,8 +622,6 @@
 				6D202EE2902F6E8547383268,
 				0479B6BFB5BD5629D6B22197,
 				9C992752D6AE7D129AD96E86,
-				6DA833FE1D4F4A7F3358EA31,
-				EBFD96A125BCDC7E78A54419,
 				6F3862C92D1703CDA31C9112,
 				3FF1536768B1C55BA948D44D,
 				16F807B5040281763467519B,
@@ -759,8 +747,8 @@
 					"JucePlugin_Build_Unity=0",
 					"JucePlugin_Build_LV2=0",
 					"JucePlugin_Enable_IAA=0",
-					"JucePlugin_Enable_ARA=1",
-					"JucePlugin_Name=\\\"euclidean_seq\\\"",
+					"JucePlugin_Enable_ARA=0",
+					"JucePlugin_Name=\\\"Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"euclidean_seq\\\"",
 					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
@@ -769,7 +757,7 @@
 					"JucePlugin_PluginCode=0x466e7630",
 					"JucePlugin_IsSynth=0",
 					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -792,7 +780,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ euclidean_seq\\\"",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -810,7 +798,6 @@
 				HEADER_SEARCH_PATHS = (
 					"/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(HOME)/SDKs/ARA_SDK",
 					"/Library/JUCE/JUCE/modules",
 					"/Library/JUCE/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
@@ -818,7 +805,7 @@
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/SDKs/ARA_SDK /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.euclidean_seq;
 				PRODUCT_NAME = "euclidean_seq";
@@ -874,8 +861,8 @@
 					"JucePlugin_Build_Unity=0",
 					"JucePlugin_Build_LV2=0",
 					"JucePlugin_Enable_IAA=0",
-					"JucePlugin_Enable_ARA=1",
-					"JucePlugin_Name=\\\"euclidean_seq\\\"",
+					"JucePlugin_Enable_ARA=0",
+					"JucePlugin_Name=\\\"Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"euclidean_seq\\\"",
 					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
@@ -884,7 +871,7 @@
 					"JucePlugin_PluginCode=0x466e7630",
 					"JucePlugin_IsSynth=0",
 					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -907,7 +894,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ euclidean_seq\\\"",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -924,7 +911,6 @@
 				HEADER_SEARCH_PATHS = (
 					"/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(HOME)/SDKs/ARA_SDK",
 					"/Library/JUCE/JUCE/modules",
 					"/Library/JUCE/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
@@ -932,7 +918,7 @@
 				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
 				INFOPLIST_PREPROCESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/SDKs/ARA_SDK /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-leuclidean_seq -weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.euclidean_seq;
 				PRODUCT_NAME = "euclidean_seq";
@@ -1036,8 +1022,8 @@
 					"JucePlugin_Build_Unity=0",
 					"JucePlugin_Build_LV2=0",
 					"JucePlugin_Enable_IAA=0",
-					"JucePlugin_Enable_ARA=1",
-					"JucePlugin_Name=\\\"euclidean_seq\\\"",
+					"JucePlugin_Enable_ARA=0",
+					"JucePlugin_Name=\\\"Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"euclidean_seq\\\"",
 					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
@@ -1046,7 +1032,7 @@
 					"JucePlugin_PluginCode=0x466e7630",
 					"JucePlugin_IsSynth=0",
 					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1069,7 +1055,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ euclidean_seq\\\"",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1086,7 +1072,6 @@
 				HEADER_SEARCH_PATHS = (
 					"/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(HOME)/SDKs/ARA_SDK",
 					"/Library/JUCE/JUCE/modules",
 					"/Library/JUCE/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
@@ -1095,7 +1080,7 @@
 				INFOPLIST_PREPROCESS = NO;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/SDKs/ARA_SDK /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-leuclidean_seq -weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.euclidean_seq;
 				PRODUCT_NAME = "euclidean_seq";
@@ -1152,8 +1137,8 @@
 					"JucePlugin_Build_Unity=0",
 					"JucePlugin_Build_LV2=0",
 					"JucePlugin_Enable_IAA=0",
-					"JucePlugin_Enable_ARA=1",
-					"JucePlugin_Name=\\\"euclidean_seq\\\"",
+					"JucePlugin_Enable_ARA=0",
+					"JucePlugin_Name=\\\"Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"euclidean_seq\\\"",
 					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
@@ -1162,7 +1147,7 @@
 					"JucePlugin_PluginCode=0x466e7630",
 					"JucePlugin_IsSynth=0",
 					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1185,7 +1170,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ euclidean_seq\\\"",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1203,7 +1188,6 @@
 				HEADER_SEARCH_PATHS = (
 					"/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(HOME)/SDKs/ARA_SDK",
 					"/Library/JUCE/JUCE/modules",
 					"/Library/JUCE/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
@@ -1213,7 +1197,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/SDKs/ARA_SDK /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-bundle -leuclidean_seq -weak_framework Metal -weak_framework MetalKit";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -d arm64_$arm64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.euclidean_seq;
@@ -1272,8 +1256,8 @@
 					"JucePlugin_Build_Unity=0",
 					"JucePlugin_Build_LV2=0",
 					"JucePlugin_Enable_IAA=0",
-					"JucePlugin_Enable_ARA=1",
-					"JucePlugin_Name=\\\"euclidean_seq\\\"",
+					"JucePlugin_Enable_ARA=0",
+					"JucePlugin_Name=\\\"Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"euclidean_seq\\\"",
 					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
@@ -1282,7 +1266,7 @@
 					"JucePlugin_PluginCode=0x466e7630",
 					"JucePlugin_IsSynth=0",
 					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1305,7 +1289,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ euclidean_seq\\\"",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1323,7 +1307,6 @@
 				HEADER_SEARCH_PATHS = (
 					"/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(HOME)/SDKs/ARA_SDK",
 					"/Library/JUCE/JUCE/modules",
 					"/Library/JUCE/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
@@ -1333,7 +1316,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/SDKs/ARA_SDK /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-bundle -leuclidean_seq -weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.euclidean_seq;
 				PRODUCT_NAME = "euclidean_seq";
@@ -1389,8 +1372,8 @@
 					"JucePlugin_Build_Unity=0",
 					"JucePlugin_Build_LV2=0",
 					"JucePlugin_Enable_IAA=0",
-					"JucePlugin_Enable_ARA=1",
-					"JucePlugin_Name=\\\"euclidean_seq\\\"",
+					"JucePlugin_Enable_ARA=0",
+					"JucePlugin_Name=\\\"Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"euclidean_seq\\\"",
 					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
@@ -1399,7 +1382,7 @@
 					"JucePlugin_PluginCode=0x466e7630",
 					"JucePlugin_IsSynth=0",
 					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1422,7 +1405,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ euclidean_seq\\\"",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1440,14 +1423,13 @@
 				HEADER_SEARCH_PATHS = (
 					"/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(HOME)/SDKs/ARA_SDK",
 					"/Library/JUCE/JUCE/modules",
 					"/Library/JUCE/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/SDKs/ARA_SDK /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.euclidean_seq;
 				PRODUCT_NAME = "euclidean_seq";
@@ -1561,8 +1543,8 @@
 					"JucePlugin_Build_Unity=0",
 					"JucePlugin_Build_LV2=0",
 					"JucePlugin_Enable_IAA=0",
-					"JucePlugin_Enable_ARA=1",
-					"JucePlugin_Name=\\\"euclidean_seq\\\"",
+					"JucePlugin_Enable_ARA=0",
+					"JucePlugin_Name=\\\"Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"euclidean_seq\\\"",
 					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
@@ -1571,7 +1553,7 @@
 					"JucePlugin_PluginCode=0x466e7630",
 					"JucePlugin_IsSynth=0",
 					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1594,7 +1576,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ euclidean_seq\\\"",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1612,7 +1594,6 @@
 				HEADER_SEARCH_PATHS = (
 					"/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(HOME)/SDKs/ARA_SDK",
 					"/Library/JUCE/JUCE/modules",
 					"/Library/JUCE/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
@@ -1623,7 +1604,7 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/SDKs/ARA_SDK /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-bundle -leuclidean_seq -weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.euclidean_seq;
 				PRODUCT_NAME = "euclidean_seq";
@@ -1681,8 +1662,8 @@
 					"JucePlugin_Build_Unity=0",
 					"JucePlugin_Build_LV2=0",
 					"JucePlugin_Enable_IAA=0",
-					"JucePlugin_Enable_ARA=1",
-					"JucePlugin_Name=\\\"euclidean_seq\\\"",
+					"JucePlugin_Enable_ARA=0",
+					"JucePlugin_Name=\\\"Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"euclidean_seq\\\"",
 					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
 					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
@@ -1691,7 +1672,7 @@
 					"JucePlugin_PluginCode=0x466e7630",
 					"JucePlugin_IsSynth=0",
 					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1714,7 +1695,7 @@
 					"JucePlugin_AAXDisableMultiMono=0",
 					"JucePlugin_IAAType=0x61757278",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ euclidean_seq\\\"",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ Euclidean\\ MIDI\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
@@ -1732,7 +1713,6 @@
 				HEADER_SEARCH_PATHS = (
 					"/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(HOME)/SDKs/ARA_SDK",
 					"/Library/JUCE/JUCE/modules",
 					"/Library/JUCE/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
@@ -1743,7 +1723,7 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(HOME)/SDKs/ARA_SDK /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "/Library/JUCE/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Library/JUCE/JUCE/modules /Library/JUCE/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-bundle -leuclidean_seq -weak_framework Metal -weak_framework MetalKit";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -d arm64_$arm64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.euclidean_seq;

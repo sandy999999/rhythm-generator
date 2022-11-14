@@ -38,10 +38,10 @@
  #define JucePlugin_Enable_IAA             0
 #endif
 #ifndef  JucePlugin_Enable_ARA
- #define JucePlugin_Enable_ARA             1
+ #define JucePlugin_Enable_ARA             0
 #endif
 #ifndef  JucePlugin_Name
- #define JucePlugin_Name                   "euclidean_seq"
+ #define JucePlugin_Name                   "Euclidean MIDI Generator"
 #endif
 #ifndef  JucePlugin_Desc
  #define JucePlugin_Desc                   "euclidean_seq"
@@ -68,7 +68,7 @@
  #define JucePlugin_WantsMidiInput         0
 #endif
 #ifndef  JucePlugin_ProducesMidiOutput
- #define JucePlugin_ProducesMidiOutput     0
+ #define JucePlugin_ProducesMidiOutput     1
 #endif
 #ifndef  JucePlugin_IsMidiEffect
  #define JucePlugin_IsMidiEffect           0
@@ -137,7 +137,7 @@
  #define JucePlugin_IAASubType             JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_IAAName
- #define JucePlugin_IAAName                "yourcompany: euclidean_seq"
+ #define JucePlugin_IAAName                "yourcompany: Euclidean MIDI Generator"
 #endif
 #ifndef  JucePlugin_VSTNumMidiInputs
  #define JucePlugin_VSTNumMidiInputs       16

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="Fnv0PW" name="euclidean_seq" projectType="araaudioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+<JUCERPROJECT id="Fnv0PW" name="euclidean_seq" projectType="audioplug" useAppConfig="0"
+              displaySplashScreen="1" jucerFormatVersion="1" pluginCharacteristicsValue="pluginProducesMidiOut"
+              pluginName="Euclidean MIDI Generator">
   <MAINGROUP id="U4m7Pi" name="euclidean_seq">
     <GROUP id="{41DA7DA6-D79A-C483-6EC8-0CFAD28A92D8}" name="Source">
       <GROUP id="{D2F2510C-5A8A-6711-E6C4-96990A9DA133}" name="MIDI">
@@ -21,14 +22,6 @@
       <FILE id="hdpsxP" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="wtrXXt" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
-      <FILE id="bbTDpl" name="PluginARADocumentController.cpp" compile="1"
-            resource="0" file="Source/PluginARADocumentController.cpp"/>
-      <FILE id="IdLnSS" name="PluginARADocumentController.h" compile="0"
-            resource="0" file="Source/PluginARADocumentController.h"/>
-      <FILE id="pma9Vj" name="PluginARAPlaybackRenderer.cpp" compile="1"
-            resource="0" file="Source/PluginARAPlaybackRenderer.cpp"/>
-      <FILE id="kbIhOY" name="PluginARAPlaybackRenderer.h" compile="0" resource="0"
-            file="Source/PluginARAPlaybackRenderer.h"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
