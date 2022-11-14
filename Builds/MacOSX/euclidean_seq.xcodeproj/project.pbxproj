@@ -36,6 +36,7 @@
 		23B66A402F680E2DADE6F557 /* include_juce_audio_processors_ara.cpp */ = {isa = PBXBuildFile; fileRef = FDB662CDF89D208B1EAFE21B; };
 		27E1FAF586DC7319E9554AA2 /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 6E07766BA72C6A95CBB6548E; };
 		2824094797C3AD7781EEA503 /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = B40A6966B382D647EC36E57D; };
+		2D496CD483A979D566BF4F55 /* MidiGenerator.cpp */ = {isa = PBXBuildFile; fileRef = 68F871B704682FC8BB866A0F; };
 		3E2C3E24C4F69E00C036E433 /* Arp.cpp */ = {isa = PBXBuildFile; fileRef = 58E112A4E0F6F9604B1FA550; };
 		3FF1536768B1C55BA948D44D /* include_juce_audio_devices.mm */ = {isa = PBXBuildFile; fileRef = AF085EE4D37F0130FB1BCC1D; };
 		5314EEB4725DA194B164621C /* include_juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = 92C580827B4A686D517178ED; };
@@ -43,7 +44,6 @@
 		5FEBB1C9B4BDA825B866301E /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = BA3CBCDA17DB8B7F78A2662C; };
 		6102CB6AA56BC32F02EA8146 /* Accelerate.framework */ = {isa = PBXBuildFile; fileRef = 20597269D2E0ACFE64DF694C; };
 		63564793CD66244849FE8E71 /* include_juce_opengl.mm */ = {isa = PBXBuildFile; fileRef = 8A5C0A0882E56C1211878688; };
-		6D202EE2902F6E8547383268 /* MidiGenerator.cpp */ = {isa = PBXBuildFile; fileRef = 6858281B7DD3291A5206BF19; };
 		6F3862C92D1703CDA31C9112 /* include_juce_audio_basics.mm */ = {isa = PBXBuildFile; fileRef = 3CBA00886888314E9D9CD819; };
 		70A2F6AD33EFF2D3E48BEF95 /* Shared Code */ = {isa = PBXBuildFile; fileRef = AE1C046BC2E0064DFF3B58F3; };
 		734A251CE09A5F5DEBBD81BC /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = 210091C52C335C3111011954; };
@@ -100,7 +100,7 @@
 		5EFA2E631FC78B7BC4E1D77C /* juce_events */ /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = /Library/JUCE/JUCE/modules/juce_events; sourceTree = "<absolute>"; };
 		5F0C5D4F38E82DB0BA50C6EA /* WebKit.framework */ /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		60536F85FA03BE3C231EF744 /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = /Library/JUCE/JUCE/modules/juce_gui_basics; sourceTree = "<absolute>"; };
-		6858281B7DD3291A5206BF19 /* MidiGenerator.cpp */ /* MidiGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MidiGenerator.cpp; path = ../../Source/MidiGenerator.cpp; sourceTree = SOURCE_ROOT; };
+		68F871B704682FC8BB866A0F /* MidiGenerator.cpp */ /* MidiGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MidiGenerator.cpp; path = ../../Source/MIDI/MidiGenerator.cpp; sourceTree = SOURCE_ROOT; };
 		6E07766BA72C6A95CBB6548E /* include_juce_gui_basics.mm */ /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
 		6FE190F79757BE4433E83BB8 /* include_juce_audio_plugin_client_VST3.cpp */ /* include_juce_audio_plugin_client_VST3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_plugin_client_VST3.cpp; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp; sourceTree = SOURCE_ROOT; };
 		7189259F64E106372FB4262B /* include_juce_audio_processors_lv2_libs.cpp */ /* include_juce_audio_processors_lv2_libs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_processors_lv2_libs.cpp; path = ../../JuceLibraryCode/include_juce_audio_processors_lv2_libs.cpp; sourceTree = SOURCE_ROOT; };
@@ -347,7 +347,7 @@
 			children = (
 				58E112A4E0F6F9604B1FA550,
 				F1D0690B04926B7E1552F737,
-				6858281B7DD3291A5206BF19,
+				68F871B704682FC8BB866A0F,
 				00EF1ECD758F9284954CCDBC,
 			);
 			name = MIDI;
@@ -619,7 +619,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E2C3E24C4F69E00C036E433,
-				6D202EE2902F6E8547383268,
+				2D496CD483A979D566BF4F55,
 				0479B6BFB5BD5629D6B22197,
 				9C992752D6AE7D129AD96E86,
 				6F3862C92D1703CDA31C9112,

@@ -8,8 +8,8 @@
       <GROUP id="{D2F2510C-5A8A-6711-E6C4-96990A9DA133}" name="MIDI">
         <FILE id="xvXsYb" name="Arp.cpp" compile="1" resource="0" file="Source/MIDI/Arp.cpp"/>
         <FILE id="ByQ3ks" name="Arp.h" compile="0" resource="0" file="Source/MIDI/Arp.h"/>
-        <FILE id="Z2QbJU" name="MidiGenerator.cpp" compile="1" resource="0"
-              file="Source/MidiGenerator.cpp"/>
+        <FILE id="hlximK" name="MidiGenerator.cpp" compile="1" resource="0"
+              file="Source/MIDI/MidiGenerator.cpp"/>
         <FILE id="kYMgRH" name="MidiGenerator.h" compile="0" resource="0" file="Source/MIDI/MidiGenerator.h"/>
       </GROUP>
       <GROUP id="{8BF18AA5-EF67-6D82-FCAE-1CFE8F6F9CCB}" name="utils">
